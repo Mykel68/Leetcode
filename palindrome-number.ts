@@ -5,7 +5,7 @@
 // Algorithm:
 // 1. Reverse the number
 // 2. Compare the reversed number with the original number
-function isPalindrome(x: number) {
+function isPalindrome(x: number): boolean {
     let original = x
     let reversed = 0
 
