@@ -4,7 +4,7 @@
 
 // starting from the left, if the next character is larger in value, then increment by one. Otherwise, if the next character is smaller in value, then decrement by one.
 
-function romanToInt(s: string) {
+function romanToInt(s: string): number {
     const romanMap: Record<string, number> = {
         "I": 1,
         "V": 5,
